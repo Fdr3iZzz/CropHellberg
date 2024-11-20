@@ -5,9 +5,9 @@ output_file = "actualPresentation.pdf"
 doc = fitz.open(input_file)
 output_doc = fitz.open()
 
-first_rect = fitz.Rect(42, 108, 286, 246)
+first_rect = fitz.Rect(42, 108, 286, 245)
 second_rect = fitz.Rect(42, 352, 286, 489)
-third_rect = fitz.Rect(42, 602, 286, 732)
+third_rect = fitz.Rect(42, 596, 286, 733)
 
 
 for page_num in range(len(doc)):
